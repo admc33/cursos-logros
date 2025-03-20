@@ -1,0 +1,22 @@
+// calculadora de edad
+
+let año = prompt("Ingrese su año de nacimiento: ");
+let actual = 2025;
+let resultado = actual - año;
+console.log("Su edad es: " + resultado);
+
+// suma de numeros pares
+
+for (let i = 1; i <= 100; i++) { 
+    if (i % 2 == 0) { 
+        console.log(i); 
+        }
+    }
+    
+    // tabla de multiplicar
+
+var numero = prompt("Ingrese un número para ver su tabla de multiplicar:");
+
+for (var i = 1; i <= 10; i++) {
+    console.log(numero + " x " + i + " = " + (numero * i));
+}

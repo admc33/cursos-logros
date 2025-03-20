@@ -1,0 +1,31 @@
+//crear un formulario en html
+
+<body>
+  <h1>
+   Formulario
+  </h1>
+  
+  <form> 
+    
+    <label> Nombre y apellido </label> <br>
+    <input type = "text" <br> <br>
+    <label> Telefono </label> <br>
+    <input type = "number" <br> <br>
+    <label> sexo </label> <br>
+    <input type = "radio" name = "sexo">  Masculino <br>
+    <input type = "radio" name = "sexo"> Femenino <br> <br>
+    <label> Fecha de nacimiento </label> <br>
+    <input type = "date" <br> <br>
+    <label> color </label> <br>
+    <input type = "color" <br> <br>   
+    <label> Gmail </label> <br>
+    <input type = "gmail" <br> <br>
+    <label> Hora </label> <br>
+    <input type = "time" <br> <br>
+    <label> Contraseña </label> <br>
+    <input type = "password" <br> <br>
+      <br>
+    <input type = "submit">   
+    
+       
+  </form>

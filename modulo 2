@@ -1,0 +1,28 @@
+var nombre = "angel";
+let edad = 17;
+const ciudad = "maracaibo";
+
+console.log("su nombre es " + nombre + " tiene " + edad + " y vive en " + ciudad );
+let nombre1 = "Daniel";
+let año = 2025;
+let curso = { programación: "programación"};
+
+
+let sumas = (a,b)=> {return a+b};
+sumas(4,6);
+
+
+let edad1 = 60;
+if (edad1 < 40) { console.log("es menor de edad");} else {console.log("adulto");}
+let dia = 2
+let nombredia;
+
+switch (dia) {case 1: nombredia = "Lunes"; break; case 2: nombredia = "martes"; break; case 3: nombredia = "miercoles"; break; case 4: nombredia = "jueves"; break; case 5: nombredia = "viernes"; break; case 6: nombredia = "sabado"; break; case 7: nombredia = "domingo"; break; default: nombredia = "dia invalido";} 
+console.log(nombredia);
+
+let name = prompt("¿cual es tu nombre? ");
+console.log("su nombre es "+ name);
+
+
+let x = prompt("ingresar un numero: ");
+if (x % 2 == 0) {console.log("el numero es par");} else {console.log("el numero es impar");}

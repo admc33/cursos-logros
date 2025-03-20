@@ -1,0 +1,13 @@
+// par o impar
+
+let x = prompt("ingresar un numero: ");
+if (x % 2 == 0) {console.log("el numero es par");} else {console.log("el numero es impar");}
+
+function suma(a, b, c) {
+    return a + b + c;
+}
+let ab = 2
+let bc = 6
+let ca = 4
+resultado = suma(ab, bc, ca)
+console.log(resultado)
