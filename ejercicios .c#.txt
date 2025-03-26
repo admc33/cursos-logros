@@ -1,0 +1,115 @@
+// Area del triangulo
+
+using System;
+
+public class AreaTriangulo 
+{
+    
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Ingrese la base del triangulo: ");
+    double baseDeTriangulo = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    Console.WriteLine("Ingrese la altura del triangulo: ");
+    double alturaDeTriangulo = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    double area = (baseDeTriangulo * alturaDeTriangulo) / 2;
+    Console.WriteLine($"El area del triangulo es: {area}");
+  }
+}
+
+// grados celsius a fahrenheit
+
+using System;
+
+public class AreaTriangulo 
+{
+    
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Ingrese los grados celsius: ");
+    double gradosCelsius = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    
+    
+    double grados = (gradosCelsius * 9 / 5) +32;
+    Console.WriteLine($"{gradosCelsius} grados celsius son {grados} fahrenheit");
+  }
+}
+
+// Promedio 
+
+using System;
+
+public class AreaTriangulo 
+{
+    
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Ingrese un numero: ");
+    double x = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    Console.WriteLine("Ingrese un numero: ");
+    double y = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    Console.WriteLine("Ingrese un numero: ");
+    double z = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    double promedio = (x + y + z) / 3;
+    Console.WriteLine($"El promedio es {promedio}");
+  }
+}
+
+// Residuo
+
+using System;
+
+public class AreaTriangulo 
+{
+    
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Ingrese un numero: ");
+    double x = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    Console.WriteLine("Ingrese un numero: ");
+    double y = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    
+    
+    double suma = x % y;
+    Console.WriteLine($"El residuo es: {suma}");
+  }
+}
+
+// Suma
+
+using System;
+
+public class AreaTriangulo 
+{
+    
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Ingrese un numero: ");
+    double x = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    Console.WriteLine("Ingrese un numero: ");
+    double y = 
+    Convert.ToDouble(Console.ReadLine());
+    
+    
+    
+    double suma = x + y;
+    Console.WriteLine($"El resultado es: {suma}");
+  }
+}
