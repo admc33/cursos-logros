@@ -1,0 +1,32 @@
+Console.WriteLine("This is the first line.");
+Console.Write("This is the ");
+Console.Write("second line");
+Console.WriteLine('ª');
+Console.WriteLine(123);
+Console.WriteLine(0.25F);
+Console.WriteLine(2.625);
+
+string angelMedina;
+int numero;
+char letra;
+decimal pi;
+bool penaltiParaElRealMadrid;
+float decimalMasCorto;
+double decimalMasLargo;
+string angelMedina;
+angelMedina = "Yo";
+Console.WriteLine(angelMedina);
+
+string name;
+name = "Bob";
+int numero;
+numero = 3;
+float decimales;
+decimales = 34.4F;
+Console.Write("hello, ");
+Console.Write(name);
+ Console.Write(" You have ");
+ Console.Write(numero);
+ Console.Write(" messages in your inbox The temprature is "); 
+ Console.Write(decimales);
+ Console.Write(" celsius.");
